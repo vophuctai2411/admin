@@ -26,7 +26,7 @@ class Administration extends Component {
         <main className={classes.content}>
           <Switch>
             {getRoutes(routes)}
-            <Redirect from="*" to="/admin/products" />
+            <Redirect from="*" to="/admin/orders" />
           </Switch>
         </main>
       </div>

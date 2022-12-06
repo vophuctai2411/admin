@@ -6,14 +6,13 @@
   },
 
   "introSection": {
-    "titleImg": "",
-    "description": "Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan konsep kesehatan yang berkaitan dengan keadaan covid sekarang",
-    "email": "validation",
+    "title": "",
+    "description": "Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan konsep kesehatan yang berkaitan dengan keadaan covid sekarang",    
     "img": ""
   },
 
   "infoSection": {
-    "titleImg": "",
+    "title": "",
     "description": "Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan konsep kesehatan yang berkaitan dengan keadaan covid sekarang",
     "cardArr": [
       {

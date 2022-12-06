@@ -7,29 +7,31 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/styles";
 import theme from "./theme";
 // core components
-import Authentication from "./layouts/Authentication";
 import Administration from "./layouts/Administration";
 import Notification from "./components/Notification";
 //
 import store from "./redux/store";
 import "./assets/css/styles.css";
+import { FavoritesContextProvider } from "./context/favorites-context";
 
 ReactDOM.render(
   <Provider store={store}>
-    <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <Switch>
-          {/* <Route path="/admin/auth" render={props => <Authentication {...props} />} /> */}
-          <Route
-            path="/admin"
-            render={(props) => <Administration {...props} />}
-          />
+    <FavoritesContextProvider>
+      <ThemeProvider theme={theme}>
+        <BrowserRouter>
+          <Switch>
+            {/* <Route path="/admin/auth" render={props => <Authentication {...props} />} /> */}
+            <Route
+              path="/admin"
+              render={(props) => <Administration {...props} />}
+            />
 
-          <Redirect from="/" to="/admin" />
-        </Switch>
-      </BrowserRouter>
-      <Notification />
-    </ThemeProvider>
+            <Redirect from="/" to="/admin" />
+          </Switch>
+        </BrowserRouter>
+        <Notification />
+      </ThemeProvider>
+    </FavoritesContextProvider>
   </Provider>,
   document.getElementById("root")
 );
