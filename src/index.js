@@ -25,7 +25,7 @@ ReactDOM.render(
             render={(props) => <Administration {...props} />}
           />
 
-          {/* <Redirect from="/" to="/admin/auth" /> */}
+          <Redirect from="/" to="/admin" />
         </Switch>
       </BrowserRouter>
       <Notification />

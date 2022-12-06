@@ -1,0 +1,34 @@
+{
+  "header": {
+    "logoImg": "",
+    "navigateArr": ["Home", "Pricing", "About", "Contact"],
+    "buttonContent": "See Demo"
+  },
+
+  "introSection": {
+    "titleImg": "",
+    "description": "Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan konsep kesehatan yang berkaitan dengan keadaan covid sekarang",
+    "email": "validation",
+    "img": ""
+  },
+
+  "infoSection": {
+    "titleImg": "",
+    "description": "Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan konsep kesehatan yang berkaitan dengan keadaan covid sekarang",
+    "cardArr": [
+      {
+        "img": "",
+        "title": "Dnor darah",
+        "description": "Cek ketersediaan donor darah atau mau donor darah"
+      }
+    ],
+    "buttonContent": "Load more"
+  },
+
+  "downloadSection": {
+    "img": "",
+    "title": "Download now",
+    "description": "Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan konsep kesehatan yang berkaitan dengan keadaan covid sekarang",
+    "imgDownSources": []
+  }
+}
